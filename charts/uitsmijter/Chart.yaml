@@ -1,0 +1,6 @@
+apiVersion: v2
+appVersion: rc-0.9.5
+description: A Kubernetes Helm chart for the Uitsmijter authorization server
+name: uitsmijter
+type: application
+version: 0.9.5-rc21

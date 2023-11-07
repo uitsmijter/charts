@@ -1,0 +1,30 @@
+namespaceOverride: ""
+
+image:
+  repository: ghcr.io/uitsmijter/uitsmijter
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: ""
+  pullPolicy: Always
+
+imagePullSecrets: []
+
+jwtSecret: "vosai0za6iex8AelahGemaeBooph6pah6Saezae0oojahfa7Re6leibeeshiu8ie"
+redisPassword: "Shohmaz1"
+storageClassName: ""
+installCRD: true
+installSA: true
+
+config:
+  # Log format options: console|ndjson
+  logFormat: "console"
+  # Log level options: trace|info|error|critical
+  logLevel: "info"
+  cookieExpirationInDays: 7
+  tokenExpirationInHours: 2
+  tokenRefreshExpirationInHours: 720
+  # show the version information at /versions
+  displayVersion: true
+
+domains:
+  - domain: "nightly.uitsmijter.io"
+    tlsSecretName: "uitsmijter.io"
