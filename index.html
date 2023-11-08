@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.a33a5269.ico">
+    <script src="assets/helm.345d3f0d.js" type="module"></script>
+    <link rel="stylesheet" href="assets/helm.15eca9a3.css">
+</head>
+<body>
+<nav class="is-spaced is-white navbar" role="navigation" aria-label="main navigation">
+    <div class="is-justify-content-space-between navbar-brand"><a class="navbar-item" href="https://www.uitsmijter.io">
+        <img alt="Uitsmijter Logo" src="assets/uitsmijter-horizontal-color.1a8be5a0.png"> </a></div>
+    <div id="navbarTop" class="navbar-menu">
+        <div class="navbar-start"></div>
+        <div class="navbar-end"><a class="navbar-item" href="https://docs.uitsmijter.io"> Documentation </a>
+            <div class="navbar-item"><a href="https://github.com/uitsmijter/Uitsmijter"><i
+                    class="fa-brands fa-github"></i></a></div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <section class="section">
+        <div class="box">
+            <div class="columns m-0">
+                <div class="column">
+                    <div class="content ml-3"><h2 class="has-text-link">Install Uitsmijter with Helm Charts.</h2>
+                        <pre>
+
+<strong>Install Uitsmijter charts repository</strong>
+<code class="language-shell">
+  helm repo <span class="function token">add</span> uitsmijter https://charts.uitsmijter.io/
+  helm update
+</code>
+
+<strong>List available versions</strong>
+<code class="language-shell">
+  helm search repo uitsmijter
+</code>
+
+<strong>List all available versions including release candidates</strong>
+<code class="language-shell">
+  helm search repo uitsmijter <span class="parameter token variable">--devel</span>
+</code>
+
+<strong>Install Uitsmijter</strong>
+<code class="language-shell">
+  helm <span class="function token">install</span> uitsmijter <span class="parameter token variable">-f</span> values.yaml uitsmijter/uitsmijter
+</code>
+</pre>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            Read more about the <a href="https://docs.uitsmijter.io/configuration/helm/">configuration options</a> on
+            the documentation page.
+        </div>
+    </section>
+</div>
+<footer class="footer mt-6">
+    <div class="container">
+        <div class="columns">
+            <div class="column has-text-centered-mobile text-footer"><h3 class="has-text-weight-bold is-uppercase">Open
+                Source</h3>
+                <p><a class="has-text-black" target="_blank"
+                      href="https://github.com/uitsmijter/Uitsmijter">Uitsmijter</a></p>
+                <p><a class="has-text-black" target="_blank" href="https://github.com/uitsmijter/Buildbox">Buildbox</a>
+                </p>
+                <p><a class="has-text-black" target="_blank" href="https://github.com/uitsmijter/image-processor">Image
+                    Processor</a></p>
+                <p class="mb-3"><a class="has-text-black" href="https://github.com/aus-der-Technik/FileMonitor">FileMonitor</a>
+                </p>
+                <p><a class="has-text-black" target="_blank" href="https://github.com/uitsmijter">GitHub
+                    Organisation</a></p></div>
+            <div class="column has-text-centered-mobile text-footer"><h3 class="has-text-weight-bold is-uppercase">
+                Learn</h3>
+                <p><a class="has-text-black" target="_blank" href="https://docs.uitsmijter.io/">Documentation</a></p></div>
+            <div class="column has-text-centered-mobile text-footer"><h3 class="has-text-weight-bold is-uppercase">
+                Community</h3>
+                <p><a class="has-text-black" target="_blank" href="https://github.com/uitsmijter/Uitsmijter/issues">Issues</a>
+                </p>
+                <p class="mb-3"><a class="has-text-black" target="_blank"
+                                   href="https://discourse.uitsmijter.io">Forum</a></p>
+                <p><a class="has-text-black" target="_blank" href="https://social.uitsmijter.io/">Mastodon</a></p>
+                <p><a class="has-text-black" target="_blank" href="https://social.uitsmijter.io/@release">Release
+                    Bot</a></p>
+                <p class="mb-3"><a class="has-text-black" target="_blank" href="https://social.uitsmijter.io/@build">Build
+                    Bot</a></p>
+                
+            </div>
+            <div class="column has-text-centered-mobile text-footer"><h3 class="has-text-weight-bold is-uppercase">
+                Enterprise</h3>
+                <p><a class="has-text-black" href="https://www.uitsmijter.io/enterprise.html">Overview</a></p>
+            </div>
+            <div class="column has-text-centered-mobile text-footer"><h3 class="has-text-weight-bold is-uppercase">
+                Company</h3>
+                <p><a class="has-text-black" target="_blank" href="https://ausdertechnik.de">aus der Technik</a></p>
+                <p><a class="has-text-black" target="_blank" href="https://ausdertechnik.de/kontakt">Contact us</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
