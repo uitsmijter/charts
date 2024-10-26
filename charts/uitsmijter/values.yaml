@@ -24,6 +24,9 @@ config:
   tokenRefreshExpirationInHours: 720
   # show the version information at /versions
   displayVersion: true
+  crd:
+    enabled: true
+    scoped: false
 
 domains:
   - domain: "nightly.uitsmijter.io"
