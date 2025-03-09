@@ -1,6 +1,6 @@
 apiVersion: v2
-appVersion: rc-ce-0.9.7
+appVersion: ce-0.9.7
 description: A Kubernetes Helm chart for the Uitsmijter authorization server
 name: uitsmijter
 type: application
-version: 0.9.7-rc27
+version: 0.9.7
