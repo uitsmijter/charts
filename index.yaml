@@ -3,6 +3,16 @@ entries:
   uitsmijter:
   - apiVersion: v2
     appVersion: rc-ce-0.10.0
+    created: "2025-10-28T15:23:12.072211009Z"
+    description: A Kubernetes Helm chart for the Uitsmijter authorization server
+    digest: 91f7798b7ab30da541691603adfaaf48abe7885cb2eb06588930e468625faa8b
+    name: uitsmijter
+    type: application
+    urls:
+    - https://github.com/uitsmijter/charts/releases/download/uitsmijter-0.10.0-rc32/uitsmijter-0.10.0-rc32.tgz
+    version: 0.10.0-rc32
+  - apiVersion: v2
+    appVersion: rc-ce-0.10.0
     created: "2025-10-28T12:59:21.404930937Z"
     description: A Kubernetes Helm chart for the Uitsmijter authorization server
     digest: 400bd5b2e0771fb78a6ddf267c3470ea51e5605c97da58cd4bd596dbc2ec4a33
@@ -101,4 +111,4 @@ entries:
     urls:
     - https://github.com/uitsmijter/charts/releases/download/uitsmijter-0.9.5-rc22/uitsmijter-0.9.5-rc22.tgz
     version: 0.9.5-rc22
-generated: "2025-10-28T12:59:21.40499106Z"
+generated: "2025-10-28T15:23:12.072243189Z"
