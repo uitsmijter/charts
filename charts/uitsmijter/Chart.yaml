@@ -3,4 +3,4 @@ appVersion: rc-ce-0.10.0
 description: A Kubernetes Helm chart for the Uitsmijter authorization server
 name: uitsmijter
 type: application
-version: 0.10.0-rc57
+version: 0.10.0-rc58
