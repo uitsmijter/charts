@@ -23,46 +23,6 @@ entries:
     version: 0.10.0-rc59
   - apiVersion: v2
     appVersion: rc-ce-0.10.0
-    created: "2025-11-20T12:23:39.511446914Z"
-    description: A Kubernetes Helm chart for the Uitsmijter authorization server
-    digest: 706afa86f7badfc7c0c91ddf6fe42e19b843935d4c588285a942c151e3ad8c39
-    name: uitsmijter
-    type: application
-    urls:
-    - https://github.com/uitsmijter/charts/releases/download/uitsmijter-0.10.0-rc58/uitsmijter-0.10.0-rc58.tgz
-    version: 0.10.0-rc58
-  - apiVersion: v2
-    appVersion: rc-ce-0.10.0
-    created: "2025-11-17T11:50:51.01198813Z"
-    description: A Kubernetes Helm chart for the Uitsmijter authorization server
-    digest: 969a352cc2d913d9e9c61e663dae7710065109a396f48fa9df39b75464700370
-    name: uitsmijter
-    type: application
-    urls:
-    - https://github.com/uitsmijter/charts/releases/download/uitsmijter-0.10.0-rc57/uitsmijter-0.10.0-rc57.tgz
-    version: 0.10.0-rc57
-  - apiVersion: v2
-    appVersion: rc-ce-0.10.0
-    created: "2025-11-14T18:28:21.155374392Z"
-    description: A Kubernetes Helm chart for the Uitsmijter authorization server
-    digest: f911ab779377d547c55b6179717d540add6276f3863f64743a971d2204f1c4cf
-    name: uitsmijter
-    type: application
-    urls:
-    - https://github.com/uitsmijter/charts/releases/download/uitsmijter-0.10.0-rc56/uitsmijter-0.10.0-rc56.tgz
-    version: 0.10.0-rc56
-  - apiVersion: v2
-    appVersion: rc-ce-0.10.0
-    created: "2025-11-14T16:40:19.450531013Z"
-    description: A Kubernetes Helm chart for the Uitsmijter authorization server
-    digest: fe88582c2003d51e74f9f65b842214fb793096d243d982036650826df847aecb
-    name: uitsmijter
-    type: application
-    urls:
-    - https://github.com/uitsmijter/charts/releases/download/uitsmijter-0.10.0-rc55/uitsmijter-0.10.0-rc55.tgz
-    version: 0.10.0-rc55
-  - apiVersion: v2
-    appVersion: rc-ce-0.10.0
     created: "2025-11-07T18:58:28.782011469Z"
     description: A Kubernetes Helm chart for the Uitsmijter authorization server
     digest: 6a0343e39d947efe70d1982b1c0ffaf65e9afbc35cadeec1139dd402773ebe51
